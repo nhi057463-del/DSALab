@@ -117,5 +117,33 @@ make clean  # Xóa file đã build
 - Tất cả code sử dụng **tiếng Việt không dấu** trong tên hàm/biến để tránh lỗi encoding
 - Mỗi file có thể biên dịch **độc lập**, không phụ thuộc nhau
 - Các hàm đặt tên theo phong cách **giáo trình** (HoanVi, ThemDau, XoaCuoi, ...)
+---
 
+## 📌 Quy Trình Fork và Nộp Bài
+
+Huong dan nop bai DSALab
+
+1. Fork repo goc:
+   https://github.com/CocAgent/DSALab
+
+2. Clone repo fork ve may
+
+3. Lam bai dung thu muc duoc yeu cau
+
+4. Commit day du va dat noi dung commit ro rang
+
+5. Push len repo GitHub ca nhan
+
+6. Nop bai bang mot trong hai cach:
+   - Tao Pull Request ve repo goc
+   - Hoac gui link repo fork len he thong hoc tap
+
+Neu nop bang Pull Request, dat tieu de theo mau:
+[MSSV] - [Ho ten] - Bai tap tuan X
+Ví dụ:
+git clone https://github.com/nguyenvana/DSALab.git
+cd DSALab
+git add .
+git commit -m "Hoan thanh bai tap tuan 1"
+git push origin main
 ---
